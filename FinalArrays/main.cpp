@@ -1,4 +1,4 @@
-#include<iostream>
+﻿#include<iostream>
 #include<cstdlib>
 #include<ctime>
 
@@ -23,7 +23,7 @@ int main()
 	std::cin >> n;
 	while (n <= 1 or n > size)
 	{
-		std::cout << "Error! N more then size of array!";
+		std::cout << "Ошибка! Н больлше чем размер массива!";
 		std::cout << " Enter the N ->";
 		std::cin >> n;
 	}
